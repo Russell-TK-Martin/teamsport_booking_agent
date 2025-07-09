@@ -11,7 +11,7 @@ module.exports = async (req, res) => {
     console.log("Calling n8n webhook with:", { activity, date });
 
     const response = await axios.post(
-      "https://teamsport.app.n8n.cloud/webhook/965713ca-2fae-4c07-8532-e87865f70d3a",
+      "https://teamsport.app.n8n.cloud/webhook-test/965713ca-2fae-4c07-8532-e87865f70d3a",
       { activity, date },
       { headers: { "Content-Type": "application/json" } }
     );
