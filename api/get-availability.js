@@ -9,7 +9,7 @@ module.exports = async (req, res) => {
 
   try {
     // THIS MUST BE THE AVAILABILITY WEBHOOK
-    const N8N_AVAILABILITY_URL = "https://teamsport.app.n8n.cloud/webhook/965713ca-2fae-4c07-8532-e87865170d3a";
+    const N8N_AVAILABILITY_URL = "https://teamsport.app.n8n.cloud/webhook/64dc8ba7-3d5b-4516-b708-9e74c8c6f08a";
 
     const response = await axios.post(
       N8N_AVAILABILITY_URL,
